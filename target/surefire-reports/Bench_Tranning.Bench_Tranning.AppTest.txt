@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: Bench_Tranning.Bench_Tranning.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.203 s <<< FAILURE! - in Bench_Tranning.Bench_Tranning.AppTest
+Testgoogle(Bench_Tranning.Bench_Tranning.AppTest)  Time elapsed: 44.43 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary 
+Host info: host: 'IN-8SXY9K3', ip: '172.20.10.2'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at Bench_Tranning.Bench_Tranning.AppTest.Testgoogle(AppTest.java:22)
+
